@@ -26,9 +26,10 @@ chsh -s /bin/zsh
 brew install python
 sudo easy_install pip
 $HOME/Library/Python/2.7/bin 
-installed solarized theme https://gist.github.com/heisters/1015503
-install https://github.com/abertsch/Menlo-for-Powerline
-change the font in item2 to menlo for Menlo-for-Powerline
+
+#installed solarized theme https://gist.github.com/heisters/1015503
+#install https://github.com/abertsch/Menlo-for-Powerline
+#change the font in item2 to menlo for Menlo-for-Powerline
 
 # install ohmyz
 #https://github.com/abertsch/Menlo-for-Powerline
@@ -40,20 +41,21 @@ change the font in item2 to menlo for Menlo-for-Powerline
 
 
 
-
+## my development tools
 
 brew tap caskroom/versions
 brew cask install sublime-text3
 brew cask install sourcetree
 brew install git
 brew cask install bettertouchtool
-
+#install vs.code
+#install brackets
 
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
 
-## sqlworkbenchJ
+## sqlworkbenchJ , for MPP database
 
 brew cask install java
 brew cask install sqlworkbenchj
@@ -75,6 +77,7 @@ aws s3 ls
 ############
 
 # windows on Mac
+#install paralles
 
 install choco
 install vs2015
@@ -151,11 +154,6 @@ defaults write com.apple.screencapture name "img";killall SystemUIServer
 
 vagrant plugin install vagrant-hostsupdater
 vagrant plugin install vagrant-dns #https://github.com/BerlinVagrant/vagrant-dns
-
-
-
-
-
 
 
 brew install wget
