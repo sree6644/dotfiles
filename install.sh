@@ -89,9 +89,17 @@ choco install mssqlservermanagementstudio2014express
 #http://nothingtodisplay.org/setting-up-nvm-node-npm-on-os-x-mavericks/
 brew install nvm
 nvm install stable
+nvm use stable
+
+#error that we get , ignore this
 #nvm is not compatible with the npm config "prefix" option: currently set to "/usr/local/Cellar/nvm/0.27.1/versions/node/v4.1.1"
 #un `nvm use --delete-prefix v4.1.1` to unset it.
+
+
+## type Script development
 npm install -g typescript
+npm install -g tsd
+npm install -g http-server
 
 
 
