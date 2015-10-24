@@ -60,6 +60,10 @@ brew cask install vagrant-manager
 brew cask install java
 brew cask install sqlworkbenchj
 
+##softwares
+
+brew install tiger-vnc
+
 ##mysql workbench
 
 brew tap caskroom/cask
