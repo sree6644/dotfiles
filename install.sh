@@ -78,10 +78,14 @@ aws configure
 aws s3 ls
 
 
-############
+####################################################################################
 
 # windows on Mac
-#install paralles
+
+####################################################################################
+
+#install paralles 11 with windows 10
+#
 
 install choco
 install vs2015
@@ -90,6 +94,9 @@ choco install mssqlservermanagementstudio2014express
 ## choco does not work
 ## http://www.hanselman.com/blog/DownloadSQLServerExpress.aspx
 # https://www.devart.com/dbforge/sql/sqlcomplete/download.html
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 # nodejs
