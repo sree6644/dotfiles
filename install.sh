@@ -253,3 +253,8 @@ brew cask install adobe-creative-cloud
 
 # mount -t smbfs //salagappa@provocraft.com/sharename share
 # cp /Volumes/f\$/Jenkins/Packages/Test4/Shopping-Magento/magento.tar.gz .
+
+
+##--------------------------------------------------------------------------------
+## 		MEAN STACK
+##--------------------------------------------------------------------------------
