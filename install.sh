@@ -84,15 +84,17 @@ aws s3 ls
 
 ####################################################################################
 
-#install paralles 11 with windows 10
-#
+# 1/11/16
+# install paralles 11 with windows 10
+# install visual studio
+# install sql-server MS //http://www.hanselman.com/blog/DownloadSQLServerExpress.aspx
 
-install choco
-install vs2015
-choco install dotnet3.5
-choco install mssqlservermanagementstudio2014express
+#install choco
+#install vs2015
+#choco install dotnet3.5
+#choco install mssqlservermanagementstudio2014express
 ## choco does not work
-## http://www.hanselman.com/blog/DownloadSQLServerExpress.aspx
+## 
 # https://www.devart.com/dbforge/sql/sqlcomplete/download.html
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
