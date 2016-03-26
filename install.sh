@@ -12,6 +12,11 @@
 #.files
 # Export all RDP connections
 
+#Iexplore2
+#sublime
+#cisco VPN
+#Dashlane
+
 
 xcode-select --install
 
