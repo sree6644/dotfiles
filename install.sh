@@ -5,12 +5,13 @@
 
 #Back up Mail
 #RDP Connections
+#aws key
 #Private folders
 #Cricut folders
 #Project Scripts
-#. files
+#.files
 # Export all RDP connections
-# Import all RDP Connections
+
 
 xcode-select --install
 
