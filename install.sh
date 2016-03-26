@@ -31,6 +31,9 @@ brew cask install iterm2
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 chsh -s /bin/zsh
 
+#install the theme
+#https://www.xplatform.rocks/2015/05/07/setting-up-iterm2-with-oh-my-zsh-and-powerline-on-osx/
+
 ## terminal customization (optional) agnoster
 brew install python
 sudo easy_install pip
