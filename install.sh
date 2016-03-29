@@ -63,7 +63,7 @@ nvm use stable
 ## 		Setting up Java
 ##--------------------------------------------------------------------------------
 brew cask install java
-
+#todo : JENV http://hanxue-it.blogspot.com/2014/05/installing-java-8-managing-multiple.html
 
 ##--------------------------------------------------------------------------------
 ## 		Android STACK
