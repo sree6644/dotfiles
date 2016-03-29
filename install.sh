@@ -3,6 +3,10 @@
 # Brew packages that I use alot.
 #
 
+#reference
+#http://sourabhbajaj.com/mac-setup/Vagrant/README.html
+
+
 #Back up Mail
 #RDP Connections
 #aws key
@@ -17,39 +21,33 @@
 #cisco VPN
 #Dashlane
 
+#--------------------------------------------------------------------------------------------
 
+#first xcode
 xcode-select --install
+
+#--------------------------------------------------------------------------------------------
 
 #home Brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+#--------------------------------------------------------------------------------------------
+
+# item2
+
 brew install caskroom/cask/brew-cask
 brew cask install iterm2
 
-# install oh-my-zsh Shell
+#--------------------------------------------------------------------------------------------
 
+# install oh-my-zsh Shell
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 chsh -s /bin/zsh
-
 #install the theme
 #https://www.xplatform.rocks/2015/05/07/setting-up-iterm2-with-oh-my-zsh-and-powerline-on-osx/
 
-## terminal customization (optional) agnoster
-brew install python
-sudo easy_install pip
-$HOME/Library/Python/2.7/bin 
 
-#installed solarized theme https://gist.github.com/heisters/1015503
-#install https://github.com/abertsch/Menlo-for-Powerline
-#change the font in item2 to menlo for Menlo-for-Powerline
-
-# install ohmyz
-#https://github.com/abertsch/Menlo-for-Powerline
-#https://gist.github.com/agnoster/3712874
-#http://stackoverflow.com/questions/28491458/zsh-agnoster-theme-showing-machine-name
-#DEFAULT_USER=`whoami`
-#upgrade_oh_my_zsh
-
+#--------------------------------------------------------------------------------------------
 
 
 
@@ -63,13 +61,15 @@ brew cask install bettertouchtool
 #install vs.code
 #install brackets
 
+#--------------------------------------------------------------------------------------------
+
+
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
 
 ## sqlworkbenchJ , for MPP database
 
-brew cask install java
 brew cask install sqlworkbenchj
 
 ##softwares
@@ -82,6 +82,7 @@ brew tap caskroom/cask
 brew install brew-cask
 brew cask install mysqlworkbench
 
+#--------------------------------------------------------------------------------------------
 
 ## aws command line interface
 
@@ -112,12 +113,14 @@ aws s3 ls
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+#--------------------------------------------------------------------------------------------
 
 # nodejs
 #http://nothingtodisplay.org/setting-up-nvm-node-npm-on-os-x-mavericks/
 brew install nvm
 nvm install stable
 nvm use stable
+#--------------------------------------------------------------------------------------------
 
 #error that we get , ignore this
 #nvm is not compatible with the npm config "prefix" option: currently set to "/usr/local/Cellar/nvm/0.27.1/versions/node/v4.1.1"
@@ -137,6 +140,7 @@ brew tap aspnet/dnx
 brew update
 brew install dnvm
 
+#--------------------------------------------------------------------------------------------
 
 ## OSX Defaults
 
@@ -158,6 +162,7 @@ defaults write com.apple.screencapture location ~/Pictures2/;;killall SystemUISe
 defaults write com.apple.screencapture type jpg;killall SystemUIServer
 defaults write com.apple.screencapture name "img";killall SystemUIServer
 
+#--------------------------------------------------------------------------------------------
 
 
 ## Vagrant windows
@@ -215,31 +220,6 @@ brew cask install mysqlworkbench
 
 
 
-#brew install wget
-#brew install homebrew/dupes/tidy
-#brew install homebrew/php/php56
-#brew install homebrew/php/php56-xdebug
-
-#brew install fish
-#brew install ffmpeg
-#brew install node
-#brew install imagemagick
-#
-# Some cask packages that I like.
-#
-#brew cask install aquamacs
-#brew cask install dropbox
-#brew cask install textexpander
-#brew cask install sublime-text
-#brew cask install macvim
-#brew cask install alfred
-#brew cask install controlplane
-#brew cask install gimp
-#brew cask install google-chrome
-#brew cask install inkscape
-#brew cask install xquartz
-#brew cask install virtualbox
-
 #editor
 
 brew cask install atom
@@ -267,6 +247,18 @@ brew cask install adobe-creative-cloud
 
 # mount -t smbfs //salagappa@provocraft.com/sharename share
 # cp /Volumes/f\$/Jenkins/Packages/Test4/Shopping-Magento/magento.tar.gz .
+
+##--------------------------------------------------------------------------------
+## 		Setting up Java
+##--------------------------------------------------------------------------------
+brew cask install java
+
+
+##--------------------------------------------------------------------------------
+## 		Android STACK
+##--------------------------------------------------------------------------------
+# install java
+# install android Studio
 
 
 ##--------------------------------------------------------------------------------
