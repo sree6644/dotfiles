@@ -47,8 +47,34 @@ chsh -s /bin/zsh
 #https://www.xplatform.rocks/2015/05/07/setting-up-iterm2-with-oh-my-zsh-and-powerline-on-osx/
 
 
+##--------------------------------------------------------------------------------
+## 		NodeJS
+##--------------------------------------------------------------------------------
+
+#http://nothingtodisplay.org/setting-up-nvm-node-npm-on-os-x-mavericks/
+brew install nvm
+nvm install stable
+nvm use stable
+
 #--------------------------------------------------------------------------------------------
 
+
+##--------------------------------------------------------------------------------
+## 		Setting up Java
+##--------------------------------------------------------------------------------
+brew cask install java
+
+
+##--------------------------------------------------------------------------------
+## 		Android STACK
+##--------------------------------------------------------------------------------
+# install java
+# install android Studio
+#/Users/sree/Library/Android/sdk
+
+##--------------------------------------------------------------------------------
+## 		MEAN STACK
+##--------------------------------------------------------------------------------
 
 
 ## my development tools
@@ -115,12 +141,7 @@ aws s3 ls
 
 #--------------------------------------------------------------------------------------------
 
-# nodejs
-#http://nothingtodisplay.org/setting-up-nvm-node-npm-on-os-x-mavericks/
-brew install nvm
-nvm install stable
-nvm use stable
-#--------------------------------------------------------------------------------------------
+
 
 #error that we get , ignore this
 #nvm is not compatible with the npm config "prefix" option: currently set to "/usr/local/Cellar/nvm/0.27.1/versions/node/v4.1.1"
@@ -248,19 +269,4 @@ brew cask install adobe-creative-cloud
 # mount -t smbfs //salagappa@provocraft.com/sharename share
 # cp /Volumes/f\$/Jenkins/Packages/Test4/Shopping-Magento/magento.tar.gz .
 
-##--------------------------------------------------------------------------------
-## 		Setting up Java
-##--------------------------------------------------------------------------------
-brew cask install java
 
-
-##--------------------------------------------------------------------------------
-## 		Android STACK
-##--------------------------------------------------------------------------------
-# install java
-# install android Studio
-
-
-##--------------------------------------------------------------------------------
-## 		MEAN STACK
-##--------------------------------------------------------------------------------
