@@ -6,7 +6,8 @@
 #reference
 #http://sourabhbajaj.com/mac-setup/Vagrant/README.html
 
-#test
+#command line
+#https://hub.github.com/ 
 
 #Back up Mail
 #RDP Connections
