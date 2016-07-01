@@ -52,6 +52,12 @@ chsh -s /bin/zsh
 #install the theme
 #https://www.xplatform.rocks/2015/05/07/setting-up-iterm2-with-oh-my-zsh-and-powerline-on-osx/
 
+##-----
+#softwares
+
+
+
+##---------
 
 ##--------------------------------------------------------------------------------
 ## 		NodeJS
