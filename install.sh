@@ -31,9 +31,10 @@ plugins=(git colored-man colorize github brew osx zsh-syntax-highlighting)
 #--------------------------------------------------------------------------------------------
 
 #sublime packages
-Dotfiles Syntax Highlighting.sublime-package
-Package Control.sublime-package
-iOpener.sublime-package
+#Dotfiles Syntax Highlighting.sublime-package
+#iOpener.sublime-package
+#http://aslanbakan.com/en/blog/33-essential-sublime-text-plugins-for-all-developers/
+
 
 #--------------------------------------------------------------------------------------------
 
