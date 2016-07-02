@@ -30,6 +30,12 @@ chsh -s /bin/zsh
 plugins=(git colored-man colorize github brew osx zsh-syntax-highlighting)
 #--------------------------------------------------------------------------------------------
 
+#sublime packages
+Dotfiles Syntax Highlighting.sublime-package
+Package Control.sublime-package
+iOpener.sublime-package
+
+#--------------------------------------------------------------------------------------------
 
 #Back up Mail
 #RDP Connections
