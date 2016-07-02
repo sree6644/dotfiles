@@ -3,28 +3,6 @@
 # Brew packages that I use alot.
 #
 
-#reference
-#http://sourabhbajaj.com/mac-setup/Vagrant/README.html
-
-#command line
-#https://hub.github.com/ 
-#https://hub.github.com/hub.1.html
-
-#Back up Mail
-#RDP Connections
-#aws key
-#Private folders
-#Cricut folders
-#Project Scripts
-#.files
-# Export all RDP connections
-
-#Iexplore2
-#sublime
-#cisco VPN
-#Dashlane
-
-# install .NET 2.0
 #--------------------------------------------------------------------------------------------
 # Fresh Mac install Steps
 #--------------------------------------------------------------------------------------------
@@ -45,6 +23,53 @@ brew install caskroom/cask/brew-cask
 brew cask install iterm2
 
 #--------------------------------------------------------------------------------------------
+
+
+#Back up Mail
+#RDP Connections
+#aws key
+#Private folders
+#office folders
+#Project Scripts
+#.files
+# Export all RDP connections
+
+#---------------------------------------------------------------------------------------------
+
+# software to Install
+
+#Iexplore2
+#sublime
+#cisco VPN
+#Dashlane
+#RoboMongo
+#DataGrip
+#sequel Pro
+#SQLlite Browser
+#webstorm
+#Magnet
+#charles
+#Beyond Compare
+
+#---------------------------------------------------------------------------------------------
+
+
+
+
+#reference
+#http://sourabhbajaj.com/mac-setup/Vagrant/README.html
+
+#command line
+#https://hub.github.com/ 
+#https://hub.github.com/hub.1.html
+
+
+
+
+
+# install .NET 2.0
+
+
 
 # install oh-my-zsh Shell
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
