@@ -27,7 +27,7 @@ brew cask install iterm2
 
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 chsh -s /bin/zsh
-
+plugins=(git colored-man colorize github brew osx zsh-syntax-highlighting)
 #--------------------------------------------------------------------------------------------
 
 
