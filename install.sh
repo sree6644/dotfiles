@@ -38,18 +38,26 @@ brew cask install iterm2
 
 # software to Install
 
+#Dashlane
+
 #Iexplore2
 #sublime
 #cisco VPN
-#Dashlane
+#Magnet
+
+
+#webstorm
+
+#charles
+#Beyond Compare
+#post man
+#sublime
+
 #RoboMongo
 #DataGrip
 #sequel Pro
 #SQLlite Browser
-#webstorm
-#Magnet
-#charles
-#Beyond Compare
+#navicat for SQL
 
 #---------------------------------------------------------------------------------------------
 
