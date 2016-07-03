@@ -170,6 +170,8 @@ brew install awscli
 aws configure
 aws s3 ls
 
+aws configure --profile prod
+
 
 ####################################################################################
 
