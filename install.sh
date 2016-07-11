@@ -66,11 +66,12 @@ plugins=(git colored-man colorize github brew osx zsh-syntax-highlighting)
 #post man
 #sublime
 
-#RoboMongo
-#DataGrip
-#sequel Pro
-#SQLlite Browser
-#navicat for SQL
+#RoboMongo for Mongodb
+#DataGrip for Redshift
+#SQLPro for MSSQL 
+#navicat for mysql
+#SQLlite Browser for mobile database
+
 
 #---------------------------------------------------------------------------------------------
 
