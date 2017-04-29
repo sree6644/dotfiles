@@ -40,6 +40,10 @@ brew install python3
 
 pip3 install --user --upgrade awscli
 
+# install sublime from website
+# add to path
+
+
 # item2
 
 brew install caskroom/cask/brew-cask
