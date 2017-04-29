@@ -1,7 +1,9 @@
 #!/bin/sh
-#
-# 
-#
+
+#--------------------------------------------------------------------------------------------
+# Fresh Mac install Steps
+#--------------------------------------------------------------------------------------------
+
 
 # Back up Mail
 # RDP Connections
@@ -18,9 +20,6 @@
 # Teams
 # config's
 
-#--------------------------------------------------------------------------------------------
-# Fresh Mac install Steps
-#--------------------------------------------------------------------------------------------
 
 #first xcode
 xcode-select --install
@@ -33,26 +32,18 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 #--------------------------------------------------------------------------------------------
 
 # https://github.com/wallix/awless
+# install awscli
+
+brew install python3
+
+# brew package for awscli does not get updated, so use aws recommented method.
+
+pip3 install --user --upgrade awscli
 
 # item2
 
 brew install caskroom/cask/brew-cask
-brew cask install iterm2
 
-# install oh-my-zsh Shell
-#https://www.xplatform.rocks/2015/05/07/setting-up-iterm2-with-oh-my-zsh-and-powerline-on-osx/
-
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-chsh -s /bin/zsh
-plugins=(git colored-man colorize github brew osx zsh-syntax-highlighting)
-#--------------------------------------------------------------------------------------------
-
-#sublime packages
-#Dotfiles Syntax Highlighting.sublime-package
-#iOpener.sublime-package
-#http://aslanbakan.com/en/blog/33-essential-sublime-text-plugins-for-all-developers/
-
-#---------------------------------------------------------------------------------------------
 
 # Softwares to Install
 
@@ -330,3 +321,19 @@ brew cask install adobe-creative-cloud
 # cp /Volumes/f\$/Jenkins/Packages/Test4/Shopping-Magento/magento.tar.gz .
 
 
+brew cask install iterm2
+
+# install oh-my-zsh Shell
+#https://www.xplatform.rocks/2015/05/07/setting-up-iterm2-with-oh-my-zsh-and-powerline-on-osx/
+
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+chsh -s /bin/zsh
+plugins=(git colored-man colorize github brew osx zsh-syntax-highlighting)
+#--------------------------------------------------------------------------------------------
+
+#sublime packages
+#Dotfiles Syntax Highlighting.sublime-package
+#iOpener.sublime-package
+#http://aslanbakan.com/en/blog/33-essential-sublime-text-plugins-for-all-developers/
+
+#---------------------------------------------------------------------------------------------
