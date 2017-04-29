@@ -1,8 +1,19 @@
 #!/bin/sh
 #
-# Brew packages that I use alot.
+# 
 #
 
+# Back up Mail
+# RDP Connections
+# aws key
+# Private folders
+# office folders
+# Project Scripts
+# .files
+# Export all RDP connections
+
+# Install
+# chrome
 # Outlook 
 # Teams
 # config's
@@ -20,6 +31,8 @@ xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #--------------------------------------------------------------------------------------------
+
+# https://github.com/wallix/awless
 
 # item2
 
@@ -39,29 +52,15 @@ plugins=(git colored-man colorize github brew osx zsh-syntax-highlighting)
 #iOpener.sublime-package
 #http://aslanbakan.com/en/blog/33-essential-sublime-text-plugins-for-all-developers/
 
-
-#--------------------------------------------------------------------------------------------
-
-#Back up Mail
-#RDP Connections
-#aws key
-#Private folders
-#office folders
-#Project Scripts
-#.files
-# Export all RDP connections
-
 #---------------------------------------------------------------------------------------------
 
-# software to Install
+# Softwares to Install
 
-#Dashlane
-
-#Iexplore2
-#sublime
-#cisco VPN
-#Magnet
-
+# Dashlane
+# Iexplore2
+# sublime
+# cisco VPN
+# Magnet
 
 #webstorm
 
