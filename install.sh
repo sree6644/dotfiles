@@ -36,6 +36,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew install python3
 
+## aws command line interface
 # brew package for awscli does not get updated, so use aws recommented method.
 
 pip3 install --user --upgrade awscli
@@ -163,13 +164,7 @@ brew cask install mysqlworkbench
 
 #--------------------------------------------------------------------------------------------
 
-## aws command line interface
 
-brew install awscli
-aws configure
-aws s3 ls
-
-aws configure --profile prod
 
 
 ####################################################################################
