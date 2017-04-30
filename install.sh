@@ -45,11 +45,6 @@ pip3 install --user --upgrade awscli
 # add to path
 
 
-# item2
-
-brew install caskroom/cask/brew-cask
-
-
 # Softwares to Install
 
 # Dashlane
@@ -60,21 +55,38 @@ brew install caskroom/cask/brew-cask
 
 #webstorm
 
-#charles
-#Beyond Compare
-#post man
-#sublime
+# charles
+# Beyond Compare
+# post man
+# sublime
 
-#RoboMongo for Mongodb
-#DataGrip for Redshift
-#SQLPro for MSSQL 
-#navicat for mysql
-#SQLlite Browser for mobile database
+# RoboMongo for Mongodb
+# DataGrip for Redshift
+# SQLPro for MSSQL 
+# navicat for mysql
+# SQLlite Browser for mobile database
 
 
 #---------------------------------------------------------------------------------------------
 
 
+
+##--------------------------------------------------------------------------------
+## 		Setting up docker
+##--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+#---------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------
 
 
 #reference
@@ -84,22 +96,9 @@ brew install caskroom/cask/brew-cask
 #https://hub.github.com/ 
 #https://hub.github.com/hub.1.html
 
-
-
-
-
 # install .NET 2.0
 
 
-
-
-
-##-----
-#softwares
-
-
-
-##---------
 
 ##--------------------------------------------------------------------------------
 ## 		NodeJS
